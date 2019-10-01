@@ -4,7 +4,7 @@
 #end
 
 Rails.application.routes.draw do
-  #root 'cars#index'
-  #resources :cars
-  root 'application#bye'
+  root 'cars#index'
+  resources :cars
+  #root 'application#bye'
 end
